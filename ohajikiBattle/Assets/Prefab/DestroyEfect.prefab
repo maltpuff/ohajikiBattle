@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4626754525357762}
   - component: {fileID: 212815455485171286}
-  - component: {fileID: 114527836548174076}
-  - component: {fileID: 58567985142210354}
-  m_Layer: 11
+  - component: {fileID: 114848118775910556}
+  - component: {fileID: 58385999689801382}
+  m_Layer: 0
   m_Name: DestroyEfect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,14 +35,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1541737413219614}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -2.7271338, y: -0, z: -0.87119824}
-  m_LocalScale: {x: 0.625, y: 0.5555557, z: 1.1111114}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.318152, y: -4.6521034, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &58567985142210354
+--- !u!58 &58385999689801382
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,10 +54,10 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.015, y: -0.02}
   serializedVersion: 2
-  m_Radius: 2.5
---- !u!114 &114527836548174076
+  m_Radius: 0.45
+--- !u!114 &114848118775910556
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8766233e57284c446b822c6e476fdc23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  going: 1
+  going: 0
 --- !u!212 &212815455485171286
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -103,13 +103,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 8b8de4f4bfd8f9e48bf9edcacfec4f18, type: 3}
+  m_SortingOrder: 7
+  m_Sprite: {fileID: 21300000, guid: f586b82a291a73e4ba9ef016677bb1f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5, y: 5}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
